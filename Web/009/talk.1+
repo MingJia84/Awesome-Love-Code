@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小宝宝一定会愿意~(^_^)', function() {
+        modal('ZHO，问题，算法，逻辑，表达，缺一不可！！！', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,59 +9,38 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('苦海无涯，学做舟！', A);
     });
 });
 
 function A() {
-    modal('我爱你！', B);
+    modal('选择了！', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('便不能回头', C);
 }
 
 function C() {
-    modal('请宝宝不要拒绝我嘛~', D);
+    modal('没有后路', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('没有前路', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我的!!!', F);
+    modal('不能原地等待!', F);
 }
 
 function F() {
-    modal('跟我走吧宝宝~', G);
+    modal('便是胡乱前行页好过原地等待', G);
 }
 
-function G() {
-    modal('房产证上写你的名字', H);
-}
-
-function H() {
-    modal('我会做饭', I);
-}
- function I() {
-    modal('我会买很多东西给你', J)
-}
-function I() {
-    modal('会好好疼你', J)
-}
-function I() {
-    modal('会哄你睡觉', J)
-}
-function I() {
-    modal('会唱歌给你听', J)
-}
-function I() {
-    modal('爱你。么么哒！', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('没有亚古兽，可以是基尔兽', function() {
         fireworks();
     });
 }
